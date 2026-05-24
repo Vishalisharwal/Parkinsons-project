@@ -1,0 +1,35 @@
+{
+  "model": "XGBRegressor",
+  "target": "motor_UPDRS",
+  "mae": 5.2,
+  "rmse": 6.51,
+  "r2": 0.3367,
+  "dataset_size": 5875,
+  "n_features": 16,
+  "severity_bands": [
+    {
+      "label": "None / Minimal",
+      "min": 0,
+      "max": 10,
+      "color": "#27AE60"
+    },
+    {
+      "label": "Mild",
+      "min": 11,
+      "max": 30,
+      "color": "#F39C12"
+    },
+    {
+      "label": "Moderate",
+      "min": 31,
+      "max": 58,
+      "color": "#E67E22"
+    },
+    {
+      "label": "Severe",
+      "min": 59,
+      "max": 200,
+      "color": "#E74C3C"
+    }
+  ]
+}

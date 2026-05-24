@@ -1,5 +1,25 @@
-streamlit
-scikit-learn
-pandas
-numpy
-joblib
+# ── Core ML ──────────────────────────────────────────────
+scikit-learn==1.8.0
+imbalanced-learn==0.14.1
+xgboost==3.2.0
+shap==0.51.0
+
+# ── Data ─────────────────────────────────────────────────
+pandas==3.0.3
+numpy==2.4.6
+joblib==1.5.3
+
+# ── App / UI ─────────────────────────────────────────────
+streamlit==1.57.0
+plotly==6.7.0
+
+# ── Audio ────────────────────────────────────────────────
+librosa==0.11.0
+praat-parselmouth==0.4.7
+soundfile==0.13.1
+streamlit-audiorecorder==0.0.6
+pydub==0.25.1
+
+# ── macOS system dependencies (run once before pip install) ──────────────────
+# brew install libomp      ← required by XGBoost
+# brew install ffmpeg      ← required by audiorecorder / pydub for mic recording

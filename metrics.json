@@ -1,0 +1,23 @@
+{
+  "model_name": "XGBClassifier",
+  "model_label": "XGBoost",
+  "accuracy": 0.9846,
+  "precision": 0.98,
+  "recall": 1.0,
+  "f1": 0.9899,
+  "roc_auc": 0.9996,
+  "confusion_matrix": [
+    [
+      45,
+      3
+    ],
+    [
+      0,
+      147
+    ]
+  ],
+  "dataset_size": 6070,
+  "dataset_note": "UCI (195) + Telemonitoring (5,875) \u2014 16 common features",
+  "n_features": 16,
+  "cv_folds": 5
+}
